@@ -15,13 +15,15 @@ table {
   border-collapse: collaose;
 }
 
-.nav-container {
+.header-container {
   width: 100%;
   background: $bg-ivory;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 14px 87px 0px 87px;
+  font-family: "NEXON Lv1 Gothic OTF";
+  //font-family: "Binggrae";
 }
 
 .logo-box {
@@ -34,7 +36,7 @@ table {
   }
 }
 
-.nav-box {
+.menu-box {
   display: flex;
   align-items: center;
 
@@ -47,7 +49,7 @@ table {
   border: 1px solid $border-gold;
 }
 
-.nav-item {
+.menu-item {
   display: inline-block;
   width: 25%;
   height: 41px;
@@ -56,7 +58,7 @@ table {
   text-align: center;
   vertical-align: middle;
 
-  font-size: 20px;
+  font-size: 17px;
   color: black;
 
   border-radius: 50px;
@@ -65,6 +67,10 @@ table {
   &:hover {
     border: 2px solid $border-gold;
   }
+}
+
+.fill-item {
+  background: #f4d57a;
 }
 
 .signup-btn {
