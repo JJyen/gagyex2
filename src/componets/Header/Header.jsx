@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="header-container">
       <div className="logo-box">
-        <img src="/assets/logo.png" alt="로고" />
+        <img src="/assets/logo2.png" alt="로고" />
       </div>
       <MenuBar />
       <div className="signup-btn">
