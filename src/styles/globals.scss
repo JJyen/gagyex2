@@ -15,6 +15,11 @@ table {
   border-collapse: collaose;
 }
 
+.home-container {
+  height: 100dvh;
+  background: linear-gradient($bg-ivory, #ffffff);
+}
+
 .header-container {
   width: 100%;
   max-height: 66px;
