@@ -1,9 +1,14 @@
 @import "./variables";
 
+// reset
 *,
 body {
   box-sizing: border-box;
   margin: 0;
+}
+
+body {
+  background: linear-gradient($bg-ivory, #ffffff);
 }
 
 li,
@@ -15,11 +20,54 @@ table {
   border-collapse: collaose;
 }
 
+// home
 .home-container {
   height: 100dvh;
-  background: linear-gradient($bg-ivory, #ffffff);
+  width: 1300px;
+  margin: auto;
+  //background: linear-gradient($bg-ivory, #ffffff);
+
+  .calendar-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    //padding: 50px 70px;
+  }
 }
 
+.home-login-box {
+  display: flex;
+  position: relative;
+  padding-top: 27px;
+  padding-bottom: 15px;
+
+  button {
+    width: 230px;
+    height: 50px;
+    border-radius: 87px 0px 150px 87px;
+    border: 1px solid $border-gold;
+    background: $bg-yellow;
+    font-size: 20px;
+
+    &:hover {
+      box-shadow: 0 0 3px 2px $border-gold;
+    }
+  }
+}
+
+.gagye-login-img {
+  width: 175px;
+  height: 155px;
+  position: absolute;
+  right: -30px;
+  bottom: -20px;
+
+  img {
+    width: 100%;
+  }
+}
+
+// header
 .header-container {
   width: 100%;
   max-height: 66px;
