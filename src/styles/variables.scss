@@ -20,3 +20,9 @@ $text-brown: #704204;
   font-weight: normal;
   font-style: normal;
 }
+
+@mixin badge-box() {
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0px 10px;
+}
