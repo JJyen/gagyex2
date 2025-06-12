@@ -1,7 +1,10 @@
 import Calendar from "@/componets/calendar/Calendar";
+import Chart from "@/componets/chart/Chart";
 import SelectedDateDetail from "@/componets/date-detail/SelectedDateDetail";
 
 export default function Home() {
+  const labels = ["교통비", "꾸밈비", "식비", "여가", "자기계발", "기타"];
+
   return (
     <div className="home-container">
       <div className="calendar-info">
@@ -14,6 +17,12 @@ export default function Home() {
             </div>
           </div>
           <SelectedDateDetail />
+        </div>
+      </div>
+      <div className="bottom-box">
+        <Chart labels={labels} />
+        <div>
+          <img alt="..." />
         </div>
       </div>
     </div>
