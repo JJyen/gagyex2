@@ -1,0 +1,34 @@
+@use "../../styles/variables.scss" as vars;
+
+.chart-container {
+  width: 715px;
+  height: 520px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 13px;
+  padding-right: 13px;
+
+  height: 64px;
+  background: vars.$bg-yellow;
+  color: vars.$text-brown;
+
+  h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.chart-box {
+  width: 100%;
+  height: 456px;
+  padding: 10px 20px;
+}
