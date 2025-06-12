@@ -67,6 +67,23 @@ table {
   }
 }
 
+//home: bottom-box
+.bottom-box {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.home-illu {
+  background: rgb(199, 199, 199);
+  position: absolute;
+  top: 30px;
+  right: 0;
+
+  // 임시 크기
+  width: 560px;
+  height: 450px;
+}
+
 // header
 .header-container {
   width: 100%;

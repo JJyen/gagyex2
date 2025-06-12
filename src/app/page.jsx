@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       <div className="bottom-box">
         <Chart labels={labels} />
-        <div>
+        <div className="home-illu">
           <img alt="..." />
         </div>
       </div>
