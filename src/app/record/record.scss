@@ -1,0 +1,43 @@
+.record-container {
+  background: white;
+  padding: 40px 100px;
+}
+
+.record-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 18px;
+  margin-bottom: 15px;
+  height: 42px;
+}
+
+.search-box {
+  display: flex;
+  overflow: visible;
+
+  .search-btn {
+    width: 65px;
+    height: 38px;
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: #fff1a8;
+    border: 1px solid #ffe27c;
+    font-size: 17px;
+  }
+}
+
+.record-header .add-record {
+  width: 333px;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  background: #ffe27c;
+  font-size: 19px;
+}
+
+// 메인 콘테츠 임시 위치
+.aa {
+  position: fixed;
+  top: 130px;
+  z-index: 5;
+}
